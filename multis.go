@@ -7,11 +7,13 @@ import (
 	"strconv"
 	"io/ioutil"
 	//"MultiTool/gifsMaker"
-	"MultiTool/gifsMaker"
+	//"MultiTool/gifsMaker"
+	"MultiTool/network"
 )
 
 func main() {
-	gifsMaker.MakeGif()
+	//gifsMaker.MakeGif()
+	network.Fetch()
 	//gifsMaker.Ec()
 	//dup()
 }
